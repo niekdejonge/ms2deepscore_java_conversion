@@ -37,6 +37,3 @@ def save_model_for_java_predict_score(input_model_file_name,
 
     # Save the TorchScript model
     traced_script_module.save(output_model_file_name)
-
-
-
